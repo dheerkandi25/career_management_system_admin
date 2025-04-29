@@ -15,7 +15,7 @@ const SearchComponent: React.FC<SearchComponentProps> = ({
 }) => {
   return (
     <div>
-      <h2 className="text-2xl font-bold mb-4 text-white">Search Applicants</h2>
+      <h2 className="text-2xl font-bold mb-4 text-black">Smart Query Search</h2>
       {/* Search input */}
       <input
         type="text"

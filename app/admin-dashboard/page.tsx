@@ -186,13 +186,13 @@ const AdminDashboard: React.FC = () => {
 
   return (
     <div className="p-8 relative">
-      <h1 className="text-3xl font-bold mb-6 text-white">Admin Dashboard</h1>
+      <h1 className="text-3xl font-bold mb-6 text-black">Admin Dashboard</h1>
       {error ? (
         <div className="text-red-500">Error: {error}</div>
       ) : (
         <>
 {/* Applicants List Section */}
-          <h2 className="text-2xl font-bold mb-4 text-white">Applicants List</h2>
+          <h2 className="text-2xl font-bold mb-4 text-black">Applicants List</h2>
           <div className="overflow-auto max-h-screen mb-8">
             <table className="min-w-full bg-white">
               <thead>
@@ -224,7 +224,7 @@ const AdminDashboard: React.FC = () => {
                       </button>
                       <button
                         onClick={() => openUpdateForm(applicant)}
-                        className="bg-green-500 hover:bg-green-600 text-white px-3 py-1 rounded ml-2"
+                        className="bg-green-500 hover:bg-green-600 text-white px-3 py-1 rounded"
                       >
                         Update
                       </button>
