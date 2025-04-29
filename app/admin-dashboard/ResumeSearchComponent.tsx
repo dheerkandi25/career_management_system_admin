@@ -16,6 +16,8 @@ const ResumeSearchComponent: React.FC<ResumeSearchComponentProps> = ({
 }) => {
   return (
     <div>
+      <h2 className="text-2xl font-bold mb-4 text-white">Search Resumes</h2>
+      {/* Resume keywords input */} 
       <input
         type="text"
         placeholder="Enter keywords (comma-separated)..."
